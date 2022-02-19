@@ -1,0 +1,104 @@
+ #insta{
+    margin-left:580px ;
+    margin-top: 25px;
+    height: 120px;
+    width: 170px;
+}
+p{
+    margin-left:570px ;
+    margin-top: 15px;
+    font-size: 50px;
+    font-family:'Playfair Display',serif;
+}
+#theme{
+    margin-left:602px ;
+    margin-top: 5px;
+    font-size: 25px;
+}
+#user
+{
+    margin-left:480px;
+    margin-top:-20px;
+	padding:5px;
+    border-width:2px;
+    border:solid;
+    border-color: grey;
+    border-width:2px;
+    background-color:gainsboro;
+	font-size:17px;
+	width:400px;
+    }
+    #pass
+{
+    margin-left:480px;
+    margin-top:5px;
+    padding:5px;
+    border-width:2px;
+    border:solid;
+    border-color: grey;
+    border-width:2px;
+    background-color:gainsboro;
+	font-size:17px;
+	width:400px;
+    }
+    #log
+{
+    margin-left:480px;
+    margin-top:20px;
+    background-color:darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:5px;
+    font-size:17px;
+    width:414px;
+    border-style:double ;
+}
+#help{
+    margin-left:520px;
+    margin-top:15px;
+    font-size: 15px; 
+}
+h2{
+    margin-left:700px;
+    margin-top:-32px;
+    font-size: 15px; 
+    white-space: nowrap;
+}
+#foot
+{
+    margin-left:580px;
+}
+#mrss
+{
+    margin-left:80px;
+}
+  #toggle {
+    margin-left:640px;
+    -webkit-appearance: none;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color:blue;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  #toggle:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color:black;
+    border-radius: 50px;
+  }
+  
+  #toggle:checked {
+    background-color: red;
+  
+  }
+  
+  #toggle:checked:before {
+    transform: translate(100%);
+  }
+
